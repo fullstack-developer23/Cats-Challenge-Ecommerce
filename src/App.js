@@ -1,3 +1,5 @@
+import AboutUs from './AboutUs';
+import Banner from './Banner';
 import { useState, useEffect } from 'react';
 import './App.css';
 
@@ -30,7 +32,9 @@ const App = () => {
   return (
     
     <div className="App">
-<h1>Cats Challenge</h1>
+    <h1>Cats Challenge</h1>
+    <Banner />
+    <AboutUs />
       {errorMsg && <h1>{errorMsg}</h1>}
       <div className="catImages">
       {characters.map((character, index) => {        
