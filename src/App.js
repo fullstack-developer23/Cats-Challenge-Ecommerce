@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { faker } from "@faker-js/faker";
 import Banner from "./Banner";
+import AboutUs from "./AboutUs";
 import "./App.css";
 
 const App = () => {
@@ -44,9 +45,12 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Cats Challenge</h1>
-      <Banner />
-      {errorMsg && <h1>{errorMsg}</h1>}
+      <h1>Cats 4 Lyf</h1>
+      {/* <Banner /> */}
+      {/* {errorMsg && <h1>{errorMsg}</h1>} */}
+      <div className="aboutUs">
+        <AboutUs />
+      </div>
       <div className="catImages">
         {characters.map((character, index) => {
           return (
