@@ -1,5 +1,5 @@
 import cat from './cat2.png';
-import banner from './catbanner.jpg';
+// import banner from './catbanner.jpg';
 
 const AboutUs = () => {
     return (
