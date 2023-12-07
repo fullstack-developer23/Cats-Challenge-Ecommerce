@@ -15,10 +15,10 @@ h2 {
   padding: 20px;
 }
 .banner {
-  
-  /* position: relative; */
-  width: 100%;
+  position: relative;
+  width: 100px;
   height: 300px;
+  
 }
 .banner .after {
   position: absolute;

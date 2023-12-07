@@ -1,4 +1,4 @@
-import cat from './bannerimg.jpeg';
+import cat from './catBanner.jpg';
 import Banner from "./Banner";
 import "./App.css";
 
