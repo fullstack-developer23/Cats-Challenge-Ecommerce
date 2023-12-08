@@ -14,6 +14,7 @@ const Modal = (props) => {
 
     return (
         <div id="modalBackground" ref={modalRef} onClick={handleClick}>
+            
             <div id="modalBox">
                 <p id="closeIcon" onClick={handleCloseClick}>x</p>
                 <div id="leftSection">
@@ -25,9 +26,10 @@ const Modal = (props) => {
                     <h2>{props.product.status}</h2>    
                     <h4>{props.product.gender}</h4>    
                     <h2>{props.product.origin}</h2>*/}
-                    <button className="addtocart">Add to Cart</button>
+                    <button className="addtocart">Add to cart</button>
                 </div>
             </div>
+
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import banner from './catbanner.jpg';
+// import Banner from './catbanner.jpg';
 
 
 const Banner = () => {
