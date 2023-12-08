@@ -138,11 +138,14 @@ p {
   justify-content: center; */
   background-color: bisque;
 }
+
 h1 {
-  font-size: 70px;
-  margin-top: 0px;
+  font-size: 30px;
+  margin-top: 78px;
   padding: 20px;
+  text-align: left;
 }
+
 h2 {
   margin-top: 75px;
   padding: 20px;
@@ -167,12 +170,13 @@ h2 {
 
 .image-container {
   display: block;
-  background: url('./catbanner.jpg');
+  background: url('./catBanner.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   height: 400px;
+  width: 100%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-start;
   /* background: rgb(0, 0, 0); */
 }
