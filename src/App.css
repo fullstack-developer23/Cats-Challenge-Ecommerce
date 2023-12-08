@@ -170,7 +170,7 @@ h2 {
 
 .image-container {
   display: block;
-  background: url('./catBanner.jpg');
+  background: url('./catbanner.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   height: 400px;
