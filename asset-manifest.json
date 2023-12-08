@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cats-Challenge-Ecommerce/static/css/main.e305591e.css",
+    "main.js": "/Cats-Challenge-Ecommerce/static/js/main.ffbe1bdd.js",
+    "static/media/catbanner.jpg": "/Cats-Challenge-Ecommerce/static/media/catbanner.ba56e0c65bc0639822c6.jpg",
+    "static/media/logo.png": "/Cats-Challenge-Ecommerce/static/media/logo.c8dba32a1c6f74dbb158.png",
+    "index.html": "/Cats-Challenge-Ecommerce/index.html",
+    "main.e305591e.css.map": "/Cats-Challenge-Ecommerce/static/css/main.e305591e.css.map",
+    "main.ffbe1bdd.js.map": "/Cats-Challenge-Ecommerce/static/js/main.ffbe1bdd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e305591e.css",
+    "static/js/main.ffbe1bdd.js"
+  ]
+}
