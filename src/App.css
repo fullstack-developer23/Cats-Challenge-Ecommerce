@@ -34,7 +34,14 @@ h2 {
 
 .image-container {
   display: block;
-  background: rgb(0, 0, 0);
+  background: url('./catbanner.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  /* background: rgb(0, 0, 0); */
 }
 
 .catImages img{

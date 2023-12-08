@@ -1,12 +1,12 @@
 import './App.css';
-import banner from './catBanner.jpg';
+import banner from './catbanner.jpg';
 
 
 const Banner = () => {
     return (
         <div className="image-container">
-       <img src={banner} alt="bannerImage" width="1200px" height="300px"/>
-       <div className="after">This is text overlay</div>
+       {/* <img src={banner} alt="bannerImage" width="100%" height="400px" /> */}
+       <h1> Welcome to My Cat's Project</h1>
         </div>
     )
 }

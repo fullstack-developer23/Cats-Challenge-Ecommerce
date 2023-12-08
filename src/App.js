@@ -46,7 +46,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Cats 4 Lyf</h1>
-      {/* <Banner /> */}
+      <Banner />
       {/* {errorMsg && <h1>{errorMsg}</h1>} */}
       <div className="aboutUs">
         <AboutUs />

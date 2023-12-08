@@ -1,5 +1,5 @@
-import cat from './catBanner.jpg';
-import Banner from "./Banner";
+// import cat from './catbanner.jpg';
+// import Banner from "./Banner";
 import "./App.css";
 
 
@@ -15,10 +15,10 @@ const AboutUs = () => {
         <p>Email us at : Stealingcatsandsellingthem@gmail.com </p>
          </div>
 
-          <div className='banner'>
+          {/* <div className='banner'>
             <img src={cat} width="600px" />  
                 
-         </div>
+         </div> */}
 
         </div>
     )
