@@ -7,7 +7,6 @@ const Footer = () => {
         <div className='column1'>
         <img src={logo} width="100px" alt='logofooter' />
         <h3> Cats For Life </h3>
-        <p><b>Email:</b> </p>
         </div>
 
         <div className='column2'>
