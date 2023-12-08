@@ -96,3 +96,38 @@ h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: bisque;
 }
+
+
+.topBar{
+  background-color: black;
+  padding: 5px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+.navBar{
+  background-color: #0075B7;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-items{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+  color: white;
+  font-size: 20px;
+}
+
+.menu-items p{
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+.logo-image{
+  width: 30%;
+}

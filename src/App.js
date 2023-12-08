@@ -2,9 +2,12 @@ import { useState, useEffect } from "react";
 import { faker } from "@faker-js/faker";
 import Banner from "./Banner";
 import AboutUs from "./AboutUs";
+import NavBar from './NavBar';
+import TopBar from './TopBar';
 import "./App.css";
 
 const App = () => {
+
   const [characters, setCharacters] = useState([]);
   const [errorMsg, setErrorMsg] = useState(null);
 
@@ -45,7 +48,8 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Cats 4 Lyf</h1>
+      <TopBar />
+      <NavBar />
       <Banner />
       {/* {errorMsg && <h1>{errorMsg}</h1>} */}
       <div className="aboutUs">
